@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <button type="button" onclick="myfun()">click me!</button>
+        <h1 id=demo></h1>
+        <p id="demo1"></p>
+        <script>
+            var a=2;
+            var b=4;
+            var c=20;
+
+            function myfun () {
+                var a=5;
+                document.write(a*c)
+            }
+            
+            document.getElementById("demo").innerHTML=a*b
+            document.getElementById("demo1").innerHTML=b*c
+        </script>
+    </body>
+</html>
